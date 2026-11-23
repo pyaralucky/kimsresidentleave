@@ -1,0 +1,18 @@
+{
+  "name": "kims-resident-leave",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for resident leave and posting management (Dept. of Dermatology) - no Cloud API needed",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/index.js",
+    "sim": "node src/index.js --sim",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc14",
+    "pino": "^10.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
